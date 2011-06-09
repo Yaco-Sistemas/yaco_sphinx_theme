@@ -13,6 +13,7 @@ To use a theme in your Sphinx documentation, follow this guide:
     sys.path.append(os.path.abspath('_themes'))
     html_theme_path = ['_themes']
     html_theme = 'yaco'
+    pygments_style = 'yaco_theme_support.YacoStyle'
 
 The following themes exist:
 
