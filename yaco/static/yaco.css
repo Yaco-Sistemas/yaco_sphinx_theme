@@ -54,10 +54,6 @@ div.footer {
     border-left: 21px solid #FBAF33;
 }
 
-div.footer a {
-    color: #ffffff;
-    text-decoration: underline;
-}
 
 div.related {
     background: #2F2A12 url(border_left.jpg) repeat-y top left;
@@ -173,7 +169,7 @@ div.body h6 {
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: normal;
     /* color: #FBAF33; */
-    color: #222;
+    color: #3E4349;
     border-bottom: 1px solid #EEEEEE;
     padding: 10px 0 2px 0;
 }
