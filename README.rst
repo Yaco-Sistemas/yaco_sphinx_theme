@@ -1,12 +1,12 @@
 Yaco Sphinx Theme
 =================
 
-This repository contains Yaco themes for Yaco related projects.
-To use a theme in your Sphinx documentation, follow this guide:
+This repository contains Sphinx themes for Yaco related projects.
+To use a theme in your Sphinx documentation, follow these steps:
 
-1. put this directory as _themes into your docs folder.  Alternatively
-   you can also use git submodules to check out the contents there
-   or symlink this directory as _themes.
+1. add this directory as _themes into your docs folder. Alternatively,
+   you can also use the git submodules functionality to check out the contents
+   into yor docs folder, or just symlink this directory as _themes.
 
 2. add this to your conf.py::
 
@@ -16,7 +16,16 @@ To use a theme in your Sphinx documentation, follow this guide:
     pygments_style = 'yaco_theme_support.YacoStyle'
     html_logo = 'logo_orange.png'
 
-The following themes exist:
+3. add this rule to your Makefile::
 
-- **yaco** - the generic Yaco Project documentation theme. Orange color
-- **htmlslide** - A slide theme. Orange color
+    slides:
+        $(SPHINXBUILD) -b html -D html_theme=htmlslide $(ALLSPHINXOPTS) $(BUILDDIR)/slides
+        @echo
+        @echo "Build finished. The HTML pages are in $(BUILDDIR)/slides."
+
+4. you are now good to go :)
+
+This repository contains the following themes:
+
+- **yaco** - the generic Yaco Project documentation theme. Orange color.
+- **htmlslide** - A slide theme. Orange color.
