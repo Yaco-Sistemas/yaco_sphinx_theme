@@ -14,7 +14,9 @@ To use a theme in your Sphinx documentation, follow this guide:
     html_theme_path = ['_themes']
     html_theme = 'yaco'
     pygments_style = 'yaco_theme_support.YacoStyle'
+    html_logo = 'logo_orange.png'
 
 The following themes exist:
 
 - **yaco** - the generic Yaco Project documentation theme. Orange color
+- **htmlslide** - A slide theme. Orange color
