@@ -162,6 +162,7 @@ pre.prettyprint{
 }
 .slidemode pre{
   font-size:130%;
+  overflow:auto;
 }
 .slidemode pre,
 .slidemode pre *{
