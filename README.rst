@@ -23,7 +23,12 @@ To use a theme in your Sphinx documentation, follow these steps:
         @echo
         @echo "Build finished. The HTML pages are in $(BUILDDIR)/slides."
 
-4. you are now good to go :)
+4. in order to render PDFs you need to have texlive installed with latex support.
+
+   Ubuntu: ``aptitude install texlive-full``
+   Arch Linux: ``pacman -S texlive-latexextra``
+
+5. you are now good to go :)
 
 This repository contains the following themes:
 
