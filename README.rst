@@ -29,6 +29,13 @@ To use a theme in your Sphinx documentation, follow these steps:
 
    Arch Linux: ``pacman -S texlive-latexextra``
 
+5. To support hyphenation in spanish.
+
+   Ubuntu: ``aptitude install texlive-lang-spanish``
+
+   Arch Linux: included in texlive-latexextra
+
+
 5. you are now good to go :)
 
 This repository contains the following themes:
